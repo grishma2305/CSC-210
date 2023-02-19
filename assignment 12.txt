@@ -1,0 +1,7 @@
+optional
+
+>=8.2  (rating)
+
+public static Movie[] filterMovies(Movie[] arr, double threshold){
+	make new array
+}

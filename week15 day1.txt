@@ -1,0 +1,37 @@
+look for it online
+
+	Test driven development (TDD)
+
+	Behavior driven development (BDD)
+
+
+
+Try-catch block
+	it's like if the exception occures
+	then go to catch block
+
+why use try-catch instead of if else
+	bcoz want to separate of logidc of detection of exception
+
+if else to solve logical part of program
+try catch no logical part but
+	figure a way to handle error during exception
+
+
+in slide 10 
+	ex is just a variable name
+
+can write multiple catch blocks
+
+
+catch(Exception e) -> the most generic one
+	will cath all exception
+	will be able to handle it properting
+
+finally -> dpes mot tahing anythithing
+
+	
+slide 14
+	que 1 no
+	que 2 yes
+	que 3 yes

@@ -1,0 +1,7 @@
+if executes only once, on the other, while will keep on running until the condition is true
+
+slide 12 
+mistake must be i<10 and not i<=10
+
+from sum 23 to 72
+i=23 and in while (a<73)

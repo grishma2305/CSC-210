@@ -1,0 +1,25 @@
+private only accessible within class
+
+getters and setters are effectibvely methods
+
+visibility modifier will be public
+
+a getter ans setter are always public
+	bcoz other classes can access it
+
+visibililty ensures how protected datafeilds are
+
+class public
+	but data feild may change
+
+loose data encapsulation 
+	leads to lacking of data
+
+ensure methods are well encapsulated
+	so protects from accidental tampering
+	and less bug
+
+we have more control on how and who access the data
+
+
+

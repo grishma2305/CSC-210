@@ -1,0 +1,55 @@
+Abstraction and encapsulation
+
+a private var and getter and setters to modify it
+	practice of encapsulation
+
+
+public methods and public feilds are called class contacts
+
+private feilds hidden from clients
+
+need to be hidden or protected are protected
+
+higher the level or generic is the class
+
+Animal(parent class) : dog and cat are child classess
+
+eg animal is more generic
+ whereas dog and child gets more specific
+
+extends
+	extending the parent/super class to make more specific child/sub class
+
+protected
+	works like private for all other class
+	works like public for it's child class
+
+not all inheritance works straight forward
+
+A class only extends single parent class\
+
+super: for super or parent class
+
+All classes are derived from super class
+
+slide 19
+	faculty -> grand parent class
+	exployee -> parent class
+	person -> child class
+heirarchy
+chain of constructor calls to create pbjects
+
+
+override
+	declared it but need to replace it so
+	making a new one specifc to our class
+
+static method can't be over ridden
+
+overloading: all methods in same class
+overriding: diff class and one inherits the other
+
+
+
+
+

@@ -1,0 +1,32 @@
+midterm next thursday(10/13)
+2 hr
+Practice test on Sunday
+No lecture on Tuesday(online) not mandatory
+
+can't change datatype within an array
+	and also can't change the size
+
+Declaration
+	Eg int [] arr;
+	eg main( String[] args)
+		storing string values in array
+
+Declare then initialize to store value, but yet not assigned
+Can combine both declaration and initialization
+
+Error
+	Index out of Bounds Exception
+	this error when you try to store higher value then index
+
+Imp to know the length
+	Accessed by .length property
+	will tell hiw long the arrat is
+	how many values it can store atmost
+access value 
+
+length alwaqys 1 more than the index
+
+foreach loop
+	modified one
+	for array
+	imp when need to focus only on index values

@@ -1,37 +1,51 @@
-/*
- * Assignment: Assignment 4A
- * Description: Calculating Factorial
- * Name: Thumar Grishma Maheshbhai
- * ID: 922950012
- * Class: CSC 210-01
- * Semester: Fall 2022
- */
-
-import java.util.Scanner;
+import java.util.Scanner
 
 public class Assignment4A {
 
+    /**
+     * In this program we are going to find the factorial
+     * of a user entered number.
+     * A factorial is a multiplication of all numbers less than
+     * or equal to that number.
+     * factorial of x = x * (x-1) * (x-2) * (x-3) * ... *2 * 1
+     *
+     * For example, factorial of 4 = 4 * 3 * 2 * 1 = 24
+     * */
     public static void main(String[] args) {
 
-        //Declaration of Scanner object
         Scanner input = new Scanner(System.in);
 
-        //Declaration of two variables to store the user input and compute the factorial
+        // First we need to create two variables
+        // First will store the user entered number whose factorial we will count
+        // Second will store the computed factorial value
         int userInput;
-        int factorial = 1;
+        int factorial;
 
-        //Prompt the user to enter number whose factorial they need to find
-        System.out.print("Enter the number to find it's factorial : ");
+
+
+        // Now prompt the user to enter a number
+        // Remember to include the necessary library
+        // and the object required to read from the keyboard
+        System.out.println("Enter the number to find it's factorial");
         userInput = input.nextInt();
 
-        //For loop initiating from int i=1 to i less than or equal to the number entered by user to get the correct factorial
-        for (int i = 1; i <= userInput; i++) {
 
-            //Computation of the value of factorial
-            factorial = factorial * i;
+
+        // Think what loop could you use in this case (while, do-while, for)
+        // How would you start?
+        // What would the loop body have?
+        // Ensure that you are storing the calculated values in the right variables
+        // Once you come out of the loop, you should have the final factorial value
+        for (int i=0; i<userInput; i++){
+            factorial = userInput * (userInput-1);
+            System.out.println(factorial);
         }
+        System.out.println("Factorial is");
 
-        //Printing out the factorial value that the final answer
-        System.out.println("Factorial is " + factorial);
+
+
+        // Print out the factorial value outside the loop
+
+
     }
 }

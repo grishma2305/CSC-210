@@ -1,0 +1,3 @@
+sentinal value: any value which causes the program to terminate
+
+continue kind of jump that is will directly go to the first part of the loop

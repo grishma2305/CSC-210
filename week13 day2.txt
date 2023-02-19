@@ -1,0 +1,43 @@
+this refers to object level variable
+ that is the class level
+
+and not this then refers to local level variable
+
+
+this means object so also means calling a constructor
+
+********
+circle constructor which takes in color name
+
+	then need to have default constructor
+	to get value of radius
+	then color it
+
+in other words
+
+public Circle(String color){
+	this();
+	this.color = color;
+}
+
+public Circle () {
+	this.radius = 1.0;
+}
+
+method calling a method
+
+********
+
+toString() method
+
+Circle c = new Circle();
+sout(c);
+
+here it will call a method c.toString();
+that too automatically
+gives memory location where object is present
+
+if we define toString method it will over write the exisiting default toString() method
+
+
+

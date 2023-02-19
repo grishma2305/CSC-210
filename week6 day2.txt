@@ -1,0 +1,37 @@
+char and string
+
+char assigned a single value 
+	can be letter or number
+esacpe sequence- backslash
+
+
+isDigit() and isLetter() will take in one char itself
+
+each method are called by calling the Character class
+ Upper case bcoz class names are always upper case
+
+string-series of char strung together
+
+Char in single quote ''
+String always double quote ""
+
+int,double,boolean.char- premitive datatype so lower
+Whereas
+String- reference type
+	weren't initially built
+	so always starts with upper case
+
+String is class as upper case
+
+
+in char call char class
+whereas in string just call by var name
+
+in concatenating string and int
+	just do it no errors
+
+NEXT reads a single word
+NEXT LINE reads the entire line
+
+in reference type can not use ==
+	only for primitve types

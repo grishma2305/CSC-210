@@ -1,0 +1,24 @@
+if we right our own constructor with arguments
+ then we need to have default constructor
+ that is must
+
+
+to instantiate object need to call a constructor
+
+reference type
+	both will point to same memory location
+
+UML diagram is hnady
+
+variable name : datatype
+
+why main method requires static keyword
+if not declare static then a copy of main will be created
+and second copy for second object
+
+as we want to be part of the class and not of individual objects
+so need static0
+
+
+READ CHAPTER 9 OF TEXT BOOK
+

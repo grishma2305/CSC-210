@@ -1,0 +1,23 @@
+Conditional
+array
+arithmetic
+user input
+methods
+
+12que
+	6 mcqs/Short ans
+	5 problems
+	1 optional que
+
+ThreeNumSort
+
+
+user input - array- 10 objects- 2-0
+
+	Program in exam practice
+
+import scanner
+class
+main method
+scanner obj 
+	

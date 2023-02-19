@@ -1,0 +1,44 @@
+string have " "
+ 
+char have ' '
+	can hold only one 1 letter/char
+if want 2 or more than two then must be a string
+
+String class = "Csc 210"
+String upClass = class.toUpperCase();
+
+if change a particular char then 
+	conert to char to arr
+char[] charClass = class.toCharArray();
+
+charClass[1] = Character.toUpperCase(charClass[1]);
+
+
+project 5
+
+	tic-tac-toe
+if(player == 'x')
+ change player to O
+	player == 'O';
+else
+	player == 'x';
+
+now a short hand notation
+	player = (player == 'X') ? 'O' : 'X';
+		condition check    if true  if false
+
+char conversion
+
+CSC 415
+csc 821  but at 5 we get 10 so 1+0 = 1
+
+6 -> 12 so 1+2 = 3 (final answer)
+char to digit then do computation
+
+slide 13
+
+second will be
+	About Classes
+blueprints .......
+
+main method not compulsory

@@ -1,0 +1,22 @@
+if do not specify modifier
+	it considers it as default
+
+visibilty modifier
+	public
+	private
+	default
+
+Packages
+	collection of java files that contains class definitions
+
+if public
+	classes in same or other packages can access it
+private
+	only accessible to methods of same class
+
+default
+	public within package
+	private outside the package
+
+slide 16
+	class A acts as default

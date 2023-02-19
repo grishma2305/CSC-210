@@ -1,0 +1,7 @@
+User.equals() ==
+
+In string
+	.toLowercase()
+	.toUppercase()
+ 
+can try for user.toLowercase().equals(----)

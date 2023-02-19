@@ -1,44 +1,39 @@
-/*
- * Assignment: Assignment 4B
- * Description: Printing odd numbers between the declared value
- * Name: Grishma Maheshbhai Thumar
- * ID: 922950012
- * Class: CSC 210-01
- * Semester: Fall 2022
- */
-
-import java.util.Scanner;
-
 public class Assignment4B {
 
-    //Declaration of main method
+    /**
+     * In this program, we are going to write a loop to perform the following:
+     * User should be prompted to enter two numbers
+     * The first number will be a smaller number
+     * The second number will be a larger number
+     *
+     * In your loop, you will print out all the odd numbers that are between
+     * the two user-entered numbers
+     *
+     * For example, say user entered 3 and 12, then your program should print:
+     * 3
+     * 5
+     * 7
+     * 9
+     * 11
+     *
+     */
     public static void main(String[] args) {
-
-        //Creating a Scanner Object
-        Scanner input = new Scanner(System.in);
-
-        //Declaration of necessary variables to store the user input
+        // Create the necessary variables
         int no1, no2;
 
-        //Prompt the user to enter the smaller and the larger number
-        System.out.print("Enter smaller number: ");
+        // Prompt the user to enter the two numbers
+        // smaller number first and larger number second
+        System.out.println("Enter smaller number: ");
         no1 = input.nextInt();
-        System.out.print("Enter larger number: ");
-        no2 = input.nextInt();
 
-        //Print statement to indicate the odd numbers
-        System.out.println("Odd numbers between them are: ");
 
-        //For loop initiating from smaller to larger number in order to print all the odd numbers between them
-        for (int i=no1; i<=no2; i++ ){
+        // Write a loop that will go from the smaller number to the larger number
+        // printing out all the odd numbers in between
 
-            //If to check whether the number is odd or not
-            if(i%2!=0){
 
-                //Printing the odd numbers
-                System.out.println(i);
-            }
-        }
 
+
+
+        
     }
 }

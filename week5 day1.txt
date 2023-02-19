@@ -1,0 +1,20 @@
+Week 5 Day 1
+
+Method
+
+modifier : public static
+return-value-type: void
+method name: main(any name with lower case, give appropriate acc to its function)
+parameters: type string or int or double(can be multiple)
+
+can't write a method inside a method
+
+return value and return-value-type needs to be consistent
+that both needs to be of the same datatype
+
+
+not necessary that void and list of parameters are empty(no relation bt/w 2)
+
+no need to write return statement in void
+
+notice diff b/w parameter and arguments

@@ -1,0 +1,28 @@
+mid term upto array
+
+arrayName [indexposition] = value
+	eg arrayname[0] = 4;
+
+when
+	array1 = array2
+	both will point to the same memory location
+ but not the case with single values
+		only for thw whole array
+
+	twist comes in copying the array
+	slide 10
+
+reverse order
+
+why to return and in which case not?
+if we do not want to modify our original array
+then need to reutrn so as to get a copy and originial stays the same
+
+ch 7.5 to 7.7 from tb
+
+practice problem sum
+for loop
+sum variable
+boolean var foundfour
+if value is not 4, add to sum
+if value is 4 don't till 5

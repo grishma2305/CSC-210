@@ -1,0 +1,9 @@
+in math.pow(a,b)
+	library- math
+	method name- pow
+	. - separates library from method
+	a,b- list of parameters
+
+in round(x)
+	if paramter is flat then it will return int	
+

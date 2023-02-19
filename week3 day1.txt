@@ -1,0 +1,11 @@
+= means assigning a value
+so java uses == in equal to in order to compare two diff values
+
+folow chart
+	diamond shape = checks the condition
+
+simplification techniques
+
+mistake in slide 22
+	last line ---- = (int)(myRandomDouble * 10)
+	add one if u want range from 1 to any number

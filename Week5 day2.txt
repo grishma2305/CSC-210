@@ -1,0 +1,34 @@
+variable remains inside that particular method 
+that is scope of variable
+
+so need to change the name in slide 10 of max
+
+Call Stack
+	activation record
+
+every method has activation record
+	stack of calls like pile of books
+
+if just print then mention return type as void
+	as in slide 27
+
+in slide 31 in order to get updated vaue of x
+	we need to return the value of x
+
+Overloading
+	same function, but different kind of values
+	i.e dataypes are different but method name same
+	
+	multiple methods with same name
+	different number of parameters or returnn-type
+
+Modularize code
+
+DRY- Do not Repeat Yourself
+
+Abstraction and Encapsulation
+	hiding all the details underneath and enabling the details only you need too show
+	hiding the complex logic
+
+Problem 6.11 in textbook (Slide 41)
+

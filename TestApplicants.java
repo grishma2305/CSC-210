@@ -51,8 +51,15 @@ public class TestApplicants {
 
         //Prompt user to enter their grades
         System.out.println("Enter your grades:");
-        System.out.print("1. CSC 210: Introduction to Computer Programming: ");
-        grades[0] = input.nextInt();
+        while (true) {
+            System.out.print("1. CSC 210: Introduction to Computer Programming: ");
+            grades[0] = input.nextInt();
+            if ((grades[0] >= 0) && (grades[0] <= 100)) {
+                break;
+            } else {
+                continue;
+            }
+        }
         System.out.print("2. CSC 220: Data Structures: ");
         grades[1] = input.nextInt();
         System.out.print("3. CSC 340: Programming Methodology: ");

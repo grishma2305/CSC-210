@@ -1,0 +1,54 @@
+methods determine the behaivor of objects
+and will descirbe all objects
+
+
+All objects have state and behavior
+
+ First Class Circle
+
+	property/data fields
+		double radius;
+
+	behavior/methods
+		public double getArea(){
+		return 3.14159 * radius * radius;
+	}
+		public double getPerimeter(){
+		return 2 * 3.14159 * radius;
+	}
+	
+
+Construct: constructs objects out of the class
+ similar to a method
+ can have no, 1 or more than 1 paramter
+ 
+
+Scanner  inputObj  =  new  Scanner (System.in)
+class    variable   keyword  class   argument
+          object             constructor
+
+eg
+
+public Dog(String n){
+	name = n;
+}
+Dog newlyfound = new Dog("Fluffy");
+
+but if
+public Dog(String n, int a){
+	name = n;
+	age = a;
+}
+Dog oldfound = new Dog("Oldy", 12);
+
+
+object: refernce to a memory space where data is stored which are in the blueprints
+
+methods can be accessed by objects
+ 
+
+create object , and call the class
+main method ends = program ends
+can have more than one class
+
+TB 9.5

@@ -1,0 +1,21 @@
+From 2000-2022
+
+int a =2000
+int b =2022
+int c=b-a
+
+Math.random()*(2022-2000 +1)+2000
+that is Math.random()* (max-min + 1) + min
+
+&&-and
+||-or
+!-not
+^-exclusive or  : whether one value is diff from other value 
+
+not is a unary operator i.e. applies to only one variable
+other like &&, ^ and || are binary operator i.e. need two varibales
+
+How to calculate?
+parentheisis then arithmetic operator then logical operator(one que in mid term)
+assignment right ot left
+binary left to right
